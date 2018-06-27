@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "Child.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        Child *child = [[Child alloc] init];
+        NSLog(@"%@",child);
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        
     }
 }

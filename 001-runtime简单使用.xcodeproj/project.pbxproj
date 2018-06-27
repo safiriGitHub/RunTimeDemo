@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0377B80120E389EE00A2EB54 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377B80020E389EE00A2EB54 /* Parent.m */; };
+		0377B80620E38ABA00A2EB54 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377B80520E38ABA00A2EB54 /* Child.m */; };
+		0377B80920E38BF200A2EB54 /* Other.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377B80820E38BF200A2EB54 /* Other.m */; };
+		0377B80C20E38C1100A2EB54 /* Parent+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377B80B20E38C1100A2EB54 /* Parent+Load.m */; };
+		0377B80F20E38C2C00A2EB54 /* Child+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377B80E20E38C2C00A2EB54 /* Child+Load.m */; };
 		0395000C1E4433E200F8C085 /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0395000B1E4433E200F8C085 /* UIViewController+swizzling.m */; };
 		03CFF6AD1E45720A00D92C18 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFF6AC1E45720A00D92C18 /* UIImage+image.m */; };
 		03CFF6B01E45805F00D92C18 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFF6AF1E45805F00D92C18 /* NSObject+Property.m */; };
@@ -20,6 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0377B7FF20E389EE00A2EB54 /* Parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		0377B80020E389EE00A2EB54 /* Parent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		0377B80420E38ABA00A2EB54 /* Child.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		0377B80520E38ABA00A2EB54 /* Child.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		0377B80720E38BF200A2EB54 /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
+		0377B80820E38BF200A2EB54 /* Other.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Other.m; sourceTree = "<group>"; };
+		0377B80A20E38C1100A2EB54 /* Parent+Load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parent+Load.h"; sourceTree = "<group>"; };
+		0377B80B20E38C1100A2EB54 /* Parent+Load.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Parent+Load.m"; sourceTree = "<group>"; };
+		0377B80D20E38C2C00A2EB54 /* Child+Load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Child+Load.h"; sourceTree = "<group>"; };
+		0377B80E20E38C2C00A2EB54 /* Child+Load.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Child+Load.m"; sourceTree = "<group>"; };
+		0377B81020E38D4100A2EB54 /* iOS之+load和+initialize的区别.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS之+load和+initialize的区别.md"; sourceTree = "<group>"; };
 		0395000A1E4433E200F8C085 /* UIViewController+swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
 		0395000B1E4433E200F8C085 /* UIViewController+swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
 		03CFF6AB1E45720A00D92C18 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
@@ -51,6 +67,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0377B80320E38A9800A2EB54 /* load与initialize区别 */ = {
+			isa = PBXGroup;
+			children = (
+				0377B81020E38D4100A2EB54 /* iOS之+load和+initialize的区别.md */,
+				0377B7FF20E389EE00A2EB54 /* Parent.h */,
+				0377B80020E389EE00A2EB54 /* Parent.m */,
+				0377B80420E38ABA00A2EB54 /* Child.h */,
+				0377B80520E38ABA00A2EB54 /* Child.m */,
+				0377B80720E38BF200A2EB54 /* Other.h */,
+				0377B80820E38BF200A2EB54 /* Other.m */,
+				0377B80A20E38C1100A2EB54 /* Parent+Load.h */,
+				0377B80B20E38C1100A2EB54 /* Parent+Load.m */,
+				0377B80D20E38C2C00A2EB54 /* Child+Load.h */,
+				0377B80E20E38C2C00A2EB54 /* Child+Load.m */,
+			);
+			path = "load与initialize区别";
+			sourceTree = "<group>";
+		};
 		03E2A2001E35D1A400AEDCFF = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +116,7 @@
 				03CFF6AF1E45805F00D92C18 /* NSObject+Property.m */,
 				03E2A2231E35D61F00AEDCFF /* Person.h */,
 				03E2A2241E35D61F00AEDCFF /* Person.m */,
+				0377B80320E38A9800A2EB54 /* load与initialize区别 */,
 				03E2A2151E35D1A400AEDCFF /* Main.storyboard */,
 				03E2A2181E35D1A400AEDCFF /* Assets.xcassets */,
 				03E2A21A1E35D1A400AEDCFF /* LaunchScreen.storyboard */,
@@ -125,7 +160,7 @@
 		03E2A2011E35D1A400AEDCFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = com.egintra;
 				TargetAttributes = {
 					03E2A2081E35D1A400AEDCFF = {
@@ -171,12 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0377B80620E38ABA00A2EB54 /* Child.m in Sources */,
 				03E2A2141E35D1A400AEDCFF /* ViewController.m in Sources */,
 				03E2A2111E35D1A400AEDCFF /* AppDelegate.m in Sources */,
 				03CFF6B01E45805F00D92C18 /* NSObject+Property.m in Sources */,
 				0395000C1E4433E200F8C085 /* UIViewController+swizzling.m in Sources */,
 				03E2A2251E35D61F00AEDCFF /* Person.m in Sources */,
+				0377B80F20E38C2C00A2EB54 /* Child+Load.m in Sources */,
+				0377B80120E389EE00A2EB54 /* Parent.m in Sources */,
 				03E2A20E1E35D1A400AEDCFF /* main.m in Sources */,
+				0377B80C20E38C1100A2EB54 /* Parent+Load.m in Sources */,
+				0377B80920E38BF200A2EB54 /* Other.m in Sources */,
 				03CFF6AD1E45720A00D92C18 /* UIImage+image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,15 +252,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -259,15 +307,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
